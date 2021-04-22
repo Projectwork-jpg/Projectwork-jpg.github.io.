@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+	
+	<title>Kayak Information</title> 
+    <link rel="stylesheet" type="text/css" href="styles/style.css"/>
+    
+    
+</head>
+<body> 
+	
+    
+    
+    <nav>
+        <ul> <!-- Unordered List -->
+        <li><a href="index.html">Home</a></li>
+        <li><a href="kayaking.html">Kayaking</a></li>
+            <li><a href="typesofkayaks.html">Types of Kayaks</a></li>
+        <li><a href="watersafety.html">Water Safety</a></li>
+        <li><a href="contactus.html">Contact Us</a></li>
+        </ul>
+    </nav>
+    
+	<main>
+         <section class="mainText">
+            <p>If you would like to ask a question directly, Contact us through our :  </p>
+            <p>Number: 086 845 2672</p>
+            <p>Email: Kayakinfo@gmail.com</p>
+            <p>
+            Or if you would like ask a question online, Please fill up the form below. It is fast and easy and we will contact you to answer your query. 
+ 
+            </p>
+        </section>
+        
+        <section class ="form">
+        <h3>Please enter the following information:</h3>
+            
+            <form action="http://year1.ccpdev.me/FormTest.php" method="post">
+                <label for="first_name">First Name:<span class="required">*</span></label>
+                <input type="text" name="first_name" id="first_name" autofocus required><br>
+                <label for="last_name">Last Name:<span class="required">*</span></label>
+                <input type="text" name="last_name" id="last_name" ><br>
+                <label for="email">Email:<span class="required">*</span></label>
+                <input type="email" name="email" id="email" required placeholder="johndoe@example.com">
+                <br>
+                
+                <label for="gender">Gender :</label>
+                <input type="radio" class="gender" name="gender" value="male"> Male
+                <input type="radio" class="gender" name="gender" value="female"> Female
+                <input type="radio" class="gender" name="gender" value="other"> Other <br>
+                
+               
+                
+                `
+                <label for="message">Query : </label>
+                
+                <textarea cols="40" rows="6" id="message" name="message" placeholder="Your message must be less than 200 characters" data-maxlength="200"></textarea> <br>
+                
+                <input type="submit" name="submit" id="button" value="Submit">
+                <input type="reset" name="reset" id="reset">
+                
+            </form>
+            <p style="margin-left: 138px"><span class="required">*</span> <em> indicates a required field </em></p>
+        </section>
+   
+	</main>
+    
+    <footer>
+        
+            <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="kayaking.html">Kayaking</a></li>
+            <li><a href="typesofkayaks.html">Types of Kayaks</a></li>
+        <li><a href="watersafety.html">Water Safety</a></li>
+        <li><a href="contactus.html">Contact Us</a></li>
+            </ul>
+       
+    </footer>
+    
+</body>
+</html>

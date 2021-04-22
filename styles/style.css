@@ -1,0 +1,183 @@
+
+
+
+body{
+    background-color: #2f3136;
+}
+
+main{
+    color: gold;
+}
+
+nav{
+    background-color: #2f3136;
+    opacity: 90%;
+    padding: 5px;
+    border-bottom: 1px solid yellow;
+}
+
+nav ul, footer ul{
+    text-align: center;
+    font-size: 1.2em;
+}
+
+nav ul li, footer ul li{
+    list-style-type: none;
+    background-color: #2f3136;
+    display: inline;
+    padding: 15px;
+    margin: 5px;
+}
+
+nav ul li a, footer ul li a{
+    color: gold;
+    text-decoration: none;
+}
+
+nav ul li:hover, footer ul li:hover{
+    background-color: red;
+}
+
+aside{
+    color: gold;
+    text-align: center;
+}
+
+footer{
+    clear: both;
+    border: 1px solid yellow;
+    padding: 0px;
+    margin: 0px;
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    background-color: #2f3136;
+    text-align: center;
+    color: gold;
+    opacity: 90%;
+}
+
+.mainText{
+    color: white;
+    width: 50%;
+    margin-left: 5%;
+    opacity: 95%;
+    margin-top: 1%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4em;
+}
+
+aside{
+    width: 30%;
+    float: right;
+    margin-right: 5%;
+}
+
+.video{
+    color: gold;
+    opacity: 90%;
+    text-align: left;
+    font-size: 1em;
+    margin-left: 2%;
+    margin-top: 2%;
+    margin-bottom: 2%
+}
+.bean{
+    text-align:center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4em;
+    margin:1.5em;
+}
+.grass{
+    width:250px;
+    height:170px;
+    display:inline-block;
+    margin-right:1em;
+    margin-bottom:1em;
+    vertical-align:top;
+    margin-left: 2em;
+    
+}
+.jeremy{
+    display:inline-block;
+     color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    margin-top:3.2em;
+}
+.lloyd{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.7em;
+    margin-top: 1%;
+    width: 50%;
+    padding-top:2em;
+}
+.activity{
+    float: right;
+    margin-bottom: 2%;
+    width: 100%;
+}
+
+.house{
+   display:block;
+   margin:auto;
+   width: 30%;
+   height: 50%;
+    padding:1em;
+}
+
+h2{
+    text-align:center;
+}
+
+
+
+.mainTitle{
+    color: gold;
+    opacity: 90%;
+    text-align: center;
+}
+
+
+
+.form{
+    margin-left: 5%;
+}
+
+
+.required{
+    font-weight: bold;
+    color: red;
+}
+
+label{
+    float: left;
+    width: 112px;
+    padding-right: 10px;
+    text-align: right;
+}
+
+input{
+    margin-left: 1em;
+    margin-bottom: .5em;
+    width: 220px;
+}
+
+input[type="radio"]{
+    width: 10px
+}
+
+
+#button{
+    margin-left: 138px;
+}
+
+
+#button, #reset{
+    margin-top: .5em;
+    width: 8em;
+    background-color: orange;
+    border: 2px solid white;
+}
